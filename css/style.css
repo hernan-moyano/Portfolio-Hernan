@@ -521,7 +521,7 @@ nav {
   font-weight: 400;
   color: var(--color-secondary);
   position: absolute;
-  bottom: -45px;
+  bottom: -60px;
 }
 
 .study__title-card strong {
@@ -1002,4 +1002,14 @@ nav {
 
 .top-button.active {
   transform: scale(1);
+}
+
+.contact_profile_photo{
+  width: 215px;
+  height: 215px;
+  background-image: url(../assets/contact/sinfondo.png); 
+  background-size: contain;
+  border-radius: 50%;
+  margin-top: 29px;
+  background-color: #1bf79b;
 }
